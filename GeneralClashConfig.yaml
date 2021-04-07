@@ -21,11 +21,9 @@ dns:
      - '*.lan'
      - localhost.ptlogin2.qq.com
   nameserver:
-     - 117.50.10.10
-     - 114.114.114.114
+     - 180.76.76.76
+     - 119.29.29.29
   fallback:
-     - tls://9.9.9.9
-     - https://doh.opendns.com/dns-query
   fallback-filter:
      geoip: true
      ipcidr:
